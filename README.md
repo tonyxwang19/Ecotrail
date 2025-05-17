@@ -34,6 +34,7 @@ Every year, millions of tons of litter are left on hiking trails worldwide. EcoT
 git clone https://github.com/yourusername/EcoTrail.git
 cd EcoTrail
 open EcoTrail.xcodeproj
+```
 ### How It Works
 Capture: Point your camera at trail trash
 
