@@ -1,28 +1,72 @@
-# EcoTrail - 环保足迹追踪应用
+# EcoTrail - Leave No Trace Companion
 
-[![Swift Version](https://img.shields.io/badge/Swift-5.9-orange.svg)](https://swift.org)
-[![Platform](https://img.shields.io/badge/iOS-17+-blue.svg)](https://developer.apple.com/ios/)
+[![Swift](https://img.shields.io/badge/Swift-5.9-orange.svg)](https://swift.org)
+[![iOS](https://img.shields.io/badge/iOS-17+-blue.svg)](https://developer.apple.com/ios/)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-一款使用机器学习识别环境垃圾并追踪环保行为的 iOS 应用。
+<img src="Preview Content/Preview Assets.xcassets/AppIcon.appiconset/icon_512x512.png" width="120" align="right">
 
-## 功能亮点
-- **智能识别**：通过 `TinyObjectDetector` 模型实时分类垃圾类型
-- **环保挑战**：在 `Explore` 模块发现环保任务
-- **进度追踪**：`Progress` 模块可视化您的环保贡献
+An AI-powered mobile companion that helps outdoor enthusiasts identify and collect trail trash during adventures.
 
-## 安装要求
+## 🌿 Why EcoTrail?
+Every year, millions of tons of litter are left on hiking trails worldwide. EcoTrail combines computer vision with outdoor activism to:
+- Make trash collection part of your outdoor routine
+- Educate users about proper waste disposal
+- Build a community of environmentally conscious adventurers
+
+## ✨ Key Features
+| Feature | Description |
+|---------|-------------|
+| 🗑️ **Smart Detection** | Real-time trash identification using `TinyObjectDetector.mlmodel` |
+| 🏔️ **Trail Challenges** | Join community clean-up events in `Explore` module |
+| 📊 **Impact Tracking** | Visualize your collected trash in `Progress` dashboard |
+| 🏆 **Gamification** | Earn badges for different trash types (plastics, metals, etc.) |
+
+## 🚀 Getting Started
+
+### Prerequisites
 - iOS 17.0+
 - Xcode 15+
+- iPhone with A12 Bionic chip or later (for optimal ML performance)
 
-## 项目结构
-EcoTrail/
-├── Camera/ # 相机功能模块
-├── Explore/ # 探索社区内容
-└── Progress/ # 用户进度系统
+### Installation
+```bash
+git clone https://github.com/yourusername/EcoTrail.git
+cd EcoTrail
+open EcoTrail.xcodeproj
+### How It Works
+Capture: Point your camera at trail trash
 
+Identify: AI classifies waste type and disposal method
 
-## 快速开始
-1. 克隆仓库：
-   ```bash
-   git clone https://github.com/yourusername/EcoTrail.git
-2. 打开 EcoTrail.xcodeproj
+Log: Record your cleanup with GPS tagging
+
+Share: Post to community feed via TrailCardView
+
+### 🛠️ Technical Stack
+Core ML for on-device trash detection
+
+SwiftUI for declarative UI
+
+MapKit for trail mapping
+
+CloudKit for community features
+
+### 📸 UI Preview
+Camera View	Classification	Community Feed
+<img src="screenshots/camera.png" width="200">	<img src="screenshots/classification.png" width="200">	<img src="screenshots/community.png" width="200">
+### 🤝 Contributing
+We welcome contributions from:
+
+Outdoor enthusiasts
+
+ML engineers (model optimization)
+
+UI/UX designers
+
+Translators (currently EN/CN only)
+
+See our Contribution Guidelines for details.
+
+### 📜 License
+Distributed under the MIT License. See LICENSE for more information.
