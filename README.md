@@ -4,7 +4,9 @@
 [![iOS](https://img.shields.io/badge/iOS-17+-blue.svg)](https://developer.apple.com/ios/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-<img src="Preview Content/Preview Assets.xcassets/AppIcon.appiconset/icon_512x512.png" width="120" align="right">
+
+<img src="Ecotrail.png" width="200" align="right">
+
 
 An AI-powered mobile companion that helps outdoor enthusiasts identify and collect trail trash during adventures.
 
