@@ -1,17 +1,19 @@
 # EcoTrail - Leave No Trace Companion
 
+<p align="center">
+  <img src="Ecotrail.png" width="100%" alt="EcoTrail Banner">
+</p>
+
 [![Swift](https://img.shields.io/badge/Swift-5.9-orange.svg)](https://swift.org)
 [![iOS](https://img.shields.io/badge/iOS-17+-blue.svg)](https://developer.apple.com/ios/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-
-<img src="Ecotrail.png" width="200" align="right">
-
-
 An AI-powered mobile companion that helps outdoor enthusiasts identify and collect trail trash during adventures.
 
 ## 🌿 Why EcoTrail?
+
 Every year, millions of tons of litter are left on hiking trails worldwide. EcoTrail combines computer vision with outdoor activism to:
+
 - Make trash collection part of your outdoor routine
 - Educate users about proper waste disposal
 - Build a community of environmentally conscious adventurers
